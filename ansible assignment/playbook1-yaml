@@ -40,7 +40,7 @@
 
     - name: Clone Github repo
       git:
-        repo: https://github.com/Vctcode/WebPage-AltSchool.git
+        repo: //https://github.com/Lyndaokezue/Assignment
         dest: /var/www/html
 
     - name: Copy contents of clone repository to Apache root directory
